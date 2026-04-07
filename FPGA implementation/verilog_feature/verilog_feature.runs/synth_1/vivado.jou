@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Nov 14 09:46:05 2025
+# Process ID: 33736
+# Current directory: D:/YCB/YCB/PROJECT/EEG_signal_processing/FPGA/EEG_cal/EEG_cal.runs/synth_1
+# Command line: vivado.exe -log MAND.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MAND.tcl
+# Log file: D:/YCB/YCB/PROJECT/EEG_signal_processing/FPGA/EEG_cal/EEG_cal.runs/synth_1/MAND.vds
+# Journal file: D:/YCB/YCB/PROJECT/EEG_signal_processing/FPGA/EEG_cal/EEG_cal.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MAND.tcl -notrace

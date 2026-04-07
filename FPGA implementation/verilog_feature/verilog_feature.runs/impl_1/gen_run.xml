@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1763084764">
+  <File Type="ROUTE-PWR" Name="MAND_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="MAND.tcl"/>
+  <File Type="BITSTR-BMM" Name="MAND_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="MAND_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="MAND_reports.tcl"/>
+  <File Type="OPT-DCP" Name="MAND_opt.dcp"/>
+  <File Type="OPT-DRC" Name="MAND_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="MAND.hwdef"/>
+  <File Type="PWROPT-DCP" Name="MAND_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="MAND_placed.dcp"/>
+  <File Type="PLACE-IO" Name="MAND_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="MAND_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MAND_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="MAND_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MAND_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="MAND.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MAND_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="MAND.bin"/>
+  <File Type="PHYSOPT-DCP" Name="MAND_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="MAND.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MAND_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="MAND_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MAND_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="MAND_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="MAND_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="MAND_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="MAND.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MAND_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="MAND.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MAND_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MAND_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="MAND.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="MAND_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="MAND_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MAND_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MAND_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="MAND_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MAND_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="MAND_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MAND_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MAND_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MAND_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MAND_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MAND_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="MAND.bit"/>
+  <File Type="BITSTR-RBT" Name="MAND.rbt"/>
+  <File Type="BITSTR-NKY" Name="MAND.nky"/>
+  <File Type="BG-DRC" Name="MAND.drc"/>
+  <File Type="RDI-RDI" Name="MAND.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../EEG_cal/code/mean_cal_new.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EEG_cal/code/MAND.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EEG_cal/code/down_samp.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EEG_cal/code/filter_iir.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EEG_cal/code/ESA_model.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EEG_cal/code/SBP_model.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EEG_cal/code/MUA_model.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EEG_cal/code/mean_cal.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../13_ip_clk_wiz/rtl/ip_clk_wiz.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MAND"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ip_clk_wiz.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../13_ip_clk_wiz/prj/ip_clk_wiz.srcs/constrs_1/new/ip_clk_wiz.xdc"/>
+        <Attr Name="ImportTime" Val="1712570542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
