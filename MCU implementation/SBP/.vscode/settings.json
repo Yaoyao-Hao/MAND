@@ -1,0 +1,6 @@
+{
+	"nrf-connect.applications": [],
+	"files.associations": {
+		"sys_clock.h": "c"
+	}
+}
